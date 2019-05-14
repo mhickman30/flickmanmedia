@@ -1,0 +1,18 @@
+.cityscapes {
+  width: 100%;
+  margin: 0 auto 30px auto;
+  height: auto;
+  transition: all .5s ease;
+  opacity: 0.5;
+}
+
+.cityscapes:hover {
+  transform: scale(1.025);
+  opacity: 1;
+}
+
+@media only screen and (max-device-width: 600px) { 
+	.cityscapes {
+		opacity: 1;
+	}
+}
