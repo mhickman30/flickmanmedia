@@ -18,10 +18,14 @@
 }
 
 input {
-  	color: black;
+  color: black;
+}
+
+textarea {
+  width: 100%;
+  color: black;
 }
 
 form {
-	text-align: left;
+  text-align: left;
 }
-
